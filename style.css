@@ -25,16 +25,26 @@ header {
  }
 
 .mondo{
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   border-radius: 10px 100px / 120px;
-  padding-right: 400px;
+  padding-right: 50px;
+  margin-right: 0;
 }
 
- p {
-font-family: Arial;
+ h3 {
+font-family: Times;
  }
 
 h2{
   border:2px double black;
+}
+
+.messa  {
+  display: flex;
+}
+
+p{
+  margin-right: 200px;
+  text align: left;
 }
