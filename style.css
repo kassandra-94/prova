@@ -67,5 +67,7 @@ nav {
 }
 
 .pagination li {
+    padding: 1px 1px 1px 1px;
+    border: thin dotted green;
     margin: 0 1px;
 }
