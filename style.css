@@ -48,3 +48,8 @@ p{
   margin-right: 200px;
   text align: left;
 }
+
+*{
+  padding: 0; //con questa modifica si elimina la scrollbar a lato e la pagina è più compatta
+  margin: 0;
+}
