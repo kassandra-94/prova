@@ -52,6 +52,7 @@ p{
 *{
   padding: 0; //con questa modifica si elimina la scrollbar a lato e la pagina è più compatta
   margin: 0;
+  box-sizing: border-box;
 }
 
 nav {
@@ -68,6 +69,6 @@ nav {
 
 .pagination li {
     padding: 1px 1px 1px 1px;
-    border: thin dotted green;
+    border: sthin dotted green;
     margin: 0 1px;
 }
