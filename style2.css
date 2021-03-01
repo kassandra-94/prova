@@ -1,4 +1,43 @@
-.altroNav {
-  display: fixed;
 
+body{
+       background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+       background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+}
+.altroNav {
+  display: inline-block;
+  padding:10px;
+  color: #F66464;
+  justify-content: center;
+
+}
+.nome{
+  color:#F66464;
+}
+.pagination{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.pagination li {
+    padding: 1px 1px 1px 1px;
+    border: thin dotted green;
+    margin: 0 1px;
+    display: flex;
+}
+.result{
+  height: 250px;
+  width: 750px;
+ margin: 0px 250px;
+}
+h1{
+  color: #570639;
+  text-align: center;
+  font-family: sans-serif;
+}
+p {
+  padding: 0px 10px;
+  color: #570957;
+  font-family: sans-serif;
+  text-align: center;
 }
